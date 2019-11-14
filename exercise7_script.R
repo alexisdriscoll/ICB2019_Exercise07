@@ -16,7 +16,7 @@ speciesobs <- function(species){
   count <- 0
   for (i in iris[seq(1, nrow(iris)),5])
     if (i == species)
-      count = count+1
+      count <- count+1
   return(count)
 }
 #test
